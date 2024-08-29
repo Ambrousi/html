@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a {
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.inp {
+    border-radius: 0.3rem;
+    outline: none;
+    padding: 0.3rem;
+}
+
+header {
+    background-color: black;
+}
+
+ul {
+    display: flex;
+}
+
+a {
+    padding: 1rem;
+}
+
+a:hover {
+    background-color: rgb(13, 13, 96);
+    transition: all ease-in-out 0.3s;
+}
